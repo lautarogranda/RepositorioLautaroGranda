@@ -1,0 +1,136 @@
+@import "colores";
+
+nav {
+    height: 10vh;
+}
+
+.navbar {
+    background-color: $colorPrimario;
+}
+
+.row {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0px;
+    row-gap: 30px;
+    position: relative;
+    
+}
+
+.row {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0px;
+    row-gap: 30px;
+    position: relative;
+    h3 {
+        margin-top: 40px;
+        color: $colorH3;
+        position: relative
+    }
+    span {
+        font-weight: bold;
+    }
+}
+
+
+img {
+    height: 90vh;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.leermas {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.descripcion {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    h3 {
+        color: #aad7f8;
+        margin-top: 0px;
+        position: relative
+    }
+    p {
+        margin: 5px 30px;
+        padding: 5px 100px;
+    }
+}
+
+.cita {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.nservicios {
+    background-image: url("../assets/img/pexels-expect-best-323705.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+
+}
+.card {
+    min-height: 200px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.acercade {
+    height: 80vh;
+    padding-bottom: 20px;
+    padding-top: 5px;
+
+}
+
+.img_index {
+    height: 70vh;
+}
+
+.titulonos {
+    align-items: center;
+    text-align: center;
+    padding-right: 10px;
+    color:#aad7f8;
+}
+
+.boxsection {
+    margin-bottom: 300px;
+}
+
+
+.fondo2 {
+    background-image: url("../assets/img/pexels-artem-podrez-5716026.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    margin-top: 20px;
+}
+
+.video {
+    align-items: center;
+    justify-items: right;
+}
