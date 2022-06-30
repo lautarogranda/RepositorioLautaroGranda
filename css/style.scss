@@ -1,4 +1,5 @@
 @import "colores";
+@import "mediaqueries";
 
 nav {
     height: 10vh;
@@ -17,6 +18,14 @@ nav {
     row-gap: 30px;
     position: relative;
     
+}
+
+.subtitulos {
+    font-size: $tamanoTipoh3;
+}
+
+.parrafo {
+    font-size: $tamanoTipop;
 }
 
 .row {
@@ -90,6 +99,7 @@ img {
     min-height: 200px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    @extend .navbar
 }
 
 .acercade {
@@ -133,4 +143,25 @@ img {
 .video {
     align-items: center;
     justify-items: right;
+}
+
+@media (max-width: 550px) {
+    .subtitulos {
+        font-size: $tamanoTipoh3/2;
+    }
+
+    .parrafo {
+        font-size: $tamanoTipop - 2px;
+    }
+}
+
+$cardColor: (
+    impar:#aad7f8,
+    par: #e3f2fd,
+);
+
+@each $tarjeta, $color in $cardColor {
+    .#{$tarjeta} {
+        background-color: $color;
+    }
 }
